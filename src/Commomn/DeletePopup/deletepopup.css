@@ -1,0 +1,23 @@
+.delete-popup {
+    padding: 30px;
+    width: 500px;
+    height: 20vh;
+  }
+  
+  .delete-heading {
+    margin-top: 1rem;
+    color: #808080;
+    font-size: 20px;
+  }
+  
+  .delete-message {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: "Lato";
+    font-size: 16px;
+    color: #808080;
+  }
+  

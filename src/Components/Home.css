@@ -1,0 +1,153 @@
+/* Home.css */
+:root {
+  --secondary-color: #cacaca;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.homeContainer {
+  width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.home_wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.first-component {
+  width: 75%;
+  margin-right: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.second-component {
+  width: 29%;
+  background-color: #ffffff;
+  box-shadow: var(--shadow);
+  height: 490px;
+}
+
+.btn_menu {
+  margin-bottom: 1rem !important;
+  border-radius: 0 !important;
+  background-color: #767676 !important;
+  padding: 10px 20px !important;
+}
+
+.btn_next {
+  border-radius: 0 !important;
+  background-color:#26b7cd !important;
+  padding: 10px 20px !important;
+  margin-right: 2rem !important;
+}
+
+.btn_prev {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+.header {
+  background-color: #26b7cd;
+  color: white;
+  padding: 20px;
+}
+
+.discount_opt {
+  background-color: var(--secondary-color);
+  color: #767676;
+  padding: 20px;
+  border-top: 1px solid #ffffff42;
+}
+.icon_control{
+  color:  #767676b4;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.delete{
+  margin-right: 2rem;
+}
+.icon_control:hover{
+  color: #26b7cd;
+}
+.btn_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 18px 0;
+}
+
+.btn_container_Pos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-top: 1px solid #80808052;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.addDiscountButton {
+  color: #26b7cd !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  margin-right: 1rem !important;
+}
+
+.discount-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #80808052;
+}
+
+.discount-name {
+  width: 50%;
+}
+
+.discount-details {
+  width: 30%;
+}
+
+.discount-switch {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-inputswitch .p-inputswitch-slider,
+.p-inputswitch .p-inputswitch-slider:before {
+  border-radius: 3px !important;
+}
+
+.p-inputswitch .p-inputswitch-slider:before {
+  background: #ffffff;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  left: 0.25rem !important;
+  margin-top: -0.725rem !important;
+  border-radius: 9% !important;
+}
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background:#26b7cd !important;
+}
+
+.p-inputswitch {
+  width: 3.6rem !important;
+  height: 2rem !important;
+}
+
+.dialog-md-width {
+  width: 80% !important;
+  max-width: 90%;
+}
+.btn_delete{
+  background-color: #CC4B37 !important;
+  margin: 1.3rem !important;
+  padding: 16px 16px !important;
+
+}
